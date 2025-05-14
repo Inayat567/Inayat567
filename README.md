@@ -48,7 +48,7 @@ While my real projects are private due to client confidentiality, here’s a gli
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Inayat567&layout=compact&theme=radical)
+![Top Langs](https://octoprofile.vercel.app/user?id=inayat567&layout=compact&theme=radical)
 
 ---
 
@@ -58,8 +58,7 @@ Feel free to reach out through my [Upwork profile](#) or LinkedIn below.
 <!-- Contact info like email intentionally hidden for public platforms -->
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/inayat-ali-56420025a/)
-- 🚀 [InnuNext Technologies on Facebook](https://www.facebook.com/people/InnuNext-Technologies/61552101640960/)
-- 🔗 Upwork: *(Link coming soon)*
+- 🔗 [Upwork](https://www.upwork.com/freelancers/~01f9a28f1fe989e240)
 
 ---
 
