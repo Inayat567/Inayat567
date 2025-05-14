@@ -48,7 +48,11 @@ While my real projects are private due to client confidentiality, here’s a gli
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical)
-![Top Langs](https://octoprofile.vercel.app/user?id=inayat567&layout=compact&theme=radical)
+
+🔍 Want a deeper look at my repositories, languages, and contribution activity?
+
+👉 [**View Full OctoProfile**](https://octoprofile.vercel.app/user?id=inayat567&layout=compact&theme=radical)
+
 
 ---
 
