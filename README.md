@@ -1,7 +1,9 @@
 # 👋 Hi, I'm Inayat Ali
 
 💼 React Native | React.js | Next.js Developer  
-🚀 Founder @ InnuNext Technologies | 🇵🇰 Based in Gilgit-Baltistan, Pakistan
+🚀 Founder @ InnuNext Technologies  
+🎯 Top Rated Freelancer on Upwork  
+🌍 Based in Gilgit-Baltistan, Pakistan
 
 ---
 
@@ -48,10 +50,7 @@ While my real projects are private due to client confidentiality, here’s a gli
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical)
-
-🔍 Want a deeper look at my repositories, languages, and contribution activity?
-
-👉 [**View Full OctoProfile**](https://octoprofile.vercel.app/user?id=inayat567&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Inayat567&layout=compact&theme=radical)
 
 
 ---
