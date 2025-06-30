@@ -54,6 +54,13 @@ While my real projects are private due to client confidentiality, here’s a gli
 For a full breakdown of my contributions, languages, and pinned projects:  
 👉 **[Check Out My OctoProfile](https://octoprofile.vercel.app/user?id=inayat567)**
 
+More actions
+## Github Stats
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical) 
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Inayat567&layout=compact&theme=radical)
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Inayat567&theme=radical)](https://git.io/streak-stats)
 
 ---
 
