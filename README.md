@@ -54,6 +54,7 @@ While my real projects are private due to client confidentiality, here’s a gli
 For a full breakdown of my contributions, languages, and pinned projects:  
 👉 **[Check Out My OctoProfile](https://octoprofile.vercel.app/user?id=inayat567)**
 
+Most of the repos are private, so these matrics are not valid, It is just based on public repos: 
 More actions
 ## Github Stats
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical) 
