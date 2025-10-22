@@ -57,6 +57,7 @@ For a full breakdown of my contributions, languages, and pinned projects:
 Most of the repos are private, so these matrics are not valid, It is just based on public repos: 
 More actions
 ## Github Stats
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/inayat567?cardType=level&preferLogin=false)](https://git.io/awesome-stats-card)
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical) 
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Inayat567&layout=compact&theme=radical)
