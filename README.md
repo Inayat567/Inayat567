@@ -192,20 +192,6 @@
 
 <br/>
 
-<div align="center">
-<a href="https://innunext.com">
-  <img src="assets/roadmap.svg" width="100%" alt="2026 Engineering Roadmap"/>
-</a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider"/>
-</div>
-
-<br/>
-
 ## 📚 Production Engineering Playbooks
 
 Field-tested architecture guides authored from shipping and rescuing real-world mobile applications:
@@ -228,10 +214,6 @@ Field-tested architecture guides authored from shipping and rescuing real-world 
   <img src="assets/contact.svg" width="100%" alt="Let's Connect & Build"/>
 </a>
 
-<a href="https://wa.me/923555369567?text=Hi%20Inayat%2C%20I%27d%20like%20to%20discuss%20a%20mobile%2Fweb%20project.">
-  <img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-</a>
-&nbsp;
 <a href="https://www.upwork.com/freelancers/~01f9a28f1fe989e240">
   <img src="https://img.shields.io/badge/Upwork-Top%20Rated-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/>
 </a>
@@ -240,16 +222,16 @@ Field-tested architecture guides authored from shipping and rescuing real-world 
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 &nbsp;
-<a href="https://calendly.com/inayatalibalti100/30min">
-  <img src="https://img.shields.io/badge/Calendly-Book%20Call-6366F1?style=for-the-badge&logo=calendly&logoColor=white" alt="Calendly"/>
-</a>
-&nbsp;
-<a href="mailto:inayatalibalti100@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<a href="https://innunext.com">
+  <img src="https://img.shields.io/badge/Portfolio-innunext.com-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
 &nbsp;
 <a href="https://www.fiverr.com/inayatalidev">
   <img src="https://img.shields.io/badge/Fiverr-Hire-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/>
+</a>
+&nbsp;
+<a href="https://contra.com/inayat_ali">
+  <img src="https://img.shields.io/badge/Contra-Profile-F1C40F?style=for-the-badge&logo=contra&logoColor=black" alt="Contra"/>
 </a>
 </div>
 
