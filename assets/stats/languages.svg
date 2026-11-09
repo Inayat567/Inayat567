@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="210" viewBox="0 0 450 210" fill="none" role="img" aria-labelledby="t">
+  <title id="t">Inayat Ali — Most Used Languages</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="jsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAB308"/>
+      <stop offset="100%" stop-color="#FACC15"/>
+    </linearGradient>
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="nativeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="450" height="210" rx="16" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Card Header -->
+  <g transform="translate(26, 32)">
+    <circle cx="5" cy="5" r="4.5" fill="#38BDF8"/>
+    <text x="18" y="10" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">Top Languages</text>
+    <text x="398" y="10" fill="#64748B" font-family="ui-monospace, monospace" font-size="11" text-anchor="end">PUBLIC REPOS</text>
+  </g>
+
+  <!-- Multi-Segment Progress Bar -->
+  <g transform="translate(26, 56)">
+    <rect width="398" height="9" rx="4.5" fill="#1E293B"/>
+    <!-- TypeScript: 38.1% = 151.6px -->
+    <rect x="0" y="0" width="151.6" height="9" rx="4.5" fill="url(#tsGrad)"/>
+    <!-- JavaScript: 36.1% = 143.7px -->
+    <rect x="153.6" y="0" width="141.7" height="9" fill="url(#jsGrad)"/>
+    <!-- Python: 21.9% = 87.2px -->
+    <rect x="297.3" y="0" width="85.2" height="9" fill="url(#pyGrad)"/>
+    <!-- Java & Swift: 3.9% = 15.5px -->
+    <rect x="384.5" y="0" width="13.5" height="9" rx="4.5" fill="url(#nativeGrad)"/>
+  </g>
+
+  <!-- Language List Items -->
+  <g transform="translate(26, 92)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12">
+    <!-- Row 1: TypeScript -->
+    <circle cx="6" cy="6" r="5" fill="#38BDF8"/>
+    <text x="20" y="10" fill="#E2E8F0" font-weight="600">TypeScript</text>
+    <text x="175" y="10" fill="#94A3B8" font-family="ui-monospace, monospace">38.1%</text>
+
+    <!-- Row 1: JavaScript -->
+    <circle cx="220" cy="6" r="5" fill="#FACC15"/>
+    <text x="234" y="10" fill="#E2E8F0" font-weight="600">JavaScript</text>
+    <text x="395" y="10" fill="#94A3B8" font-family="ui-monospace, monospace" text-anchor="end">36.1%</text>
+
+    <!-- Row 2: Python -->
+    <g transform="translate(0, 36)">
+      <circle cx="6" cy="6" r="5" fill="#818CF8"/>
+      <text x="20" y="10" fill="#E2E8F0" font-weight="600">Python / AI</text>
+      <text x="175" y="10" fill="#94A3B8" font-family="ui-monospace, monospace">21.9%</text>
+
+      <!-- Row 2: Java & Swift -->
+      <circle cx="220" cy="6" r="5" fill="#10B981"/>
+      <text x="234" y="10" fill="#E2E8F0" font-weight="600">Java &amp; Swift</text>
+      <text x="395" y="10" fill="#94A3B8" font-family="ui-monospace, monospace" text-anchor="end">3.9%</text>
+    </g>
+
+    <!-- Bottom Metric -->
+    <g transform="translate(0, 78)">
+      <text x="0" y="10" fill="#64748B" font-size="11" font-family="ui-monospace, monospace">Codebase: 48.6 MB verified source code</text>
+      <text x="398" y="10" fill="#10B981" font-size="11" font-family="ui-monospace, monospace" text-anchor="end">✓ Active Contributor</text>
+    </g>
+  </g>
+</svg>

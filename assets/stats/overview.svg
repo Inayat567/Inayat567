@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="210" viewBox="0 0 450 210" fill="none" role="img" aria-labelledby="t">
+  <title id="t">Inayat Ali — Engineering Overview &amp; Verification</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="metricGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="450" height="210" rx="16" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Card Header -->
+  <g transform="translate(26, 32)">
+    <circle cx="5" cy="5" r="4.5" fill="#10B981"/>
+    <text x="18" y="10" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">Engineering Metrics</text>
+    <text x="398" y="10" fill="#10B981" font-family="ui-monospace, monospace" font-size="11" font-weight="700" text-anchor="end">VERIFIED</text>
+  </g>
+
+  <!-- 2x2 Grid of Metrics -->
+  <g transform="translate(26, 68)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <!-- Metric 1: Total Contributions -->
+    <rect width="190" height="52" rx="10" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="24" fill="url(#metricGrad1)" font-size="20" font-weight="800" font-family="ui-monospace, monospace">1,500+</text>
+    <text x="14" y="42" fill="#94A3B8" font-size="11" font-weight="500">GitHub Contributions</text>
+
+    <!-- Metric 2: Job Success -->
+    <g transform="translate(208, 0)">
+      <rect width="190" height="52" rx="10" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="24" fill="#10B981" font-size="20" font-weight="800" font-family="ui-monospace, monospace">100%</text>
+      <text x="14" y="42" fill="#94A3B8" font-size="11" font-weight="500">Upwork Job Success (Top Rated)</text>
+    </g>
+
+    <!-- Metric 3: Production Case Studies -->
+    <g transform="translate(0, 62)">
+      <rect width="190" height="52" rx="10" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="24" fill="#38BDF8" font-size="20" font-weight="800" font-family="ui-monospace, monospace">15 Apps</text>
+      <text x="14" y="42" fill="#94A3B8" font-size="11" font-weight="500">Shipped Production Systems</text>
+    </g>
+
+    <!-- Metric 4: Client Rating -->
+    <g transform="translate(208, 62)">
+      <rect width="190" height="52" rx="10" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="24" fill="#FACC15" font-size="20" font-weight="800" font-family="ui-monospace, monospace">5.0 ★★★★★</text>
+      <text x="14" y="42" fill="#94A3B8" font-size="11" font-weight="500">Verified Client Rating</text>
+    </g>
+  </g>
+</svg>
