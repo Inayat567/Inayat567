@@ -1,19 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="380" viewBox="0 0 1100 380" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Inayat Ali — Senior React Native &amp; Full-Stack Mobile Architect</title>
   <desc id="desc">Top Rated mobile engineer architecting iOS, Android, and Next.js applications for startups and enterprise clients.</desc>
 
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradient (innunext.com dark theme #0B0F19 base with subtle sapphire gradient) -->
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080C14"/>
       <stop offset="50%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#0D1322"/>
+      <stop offset="100%" stop-color="#0D1526"/>
     </linearGradient>
 
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0.25"/>
+    <linearGradient id="headerAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="headerBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.3"/>
     </linearGradient>
 
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -32,133 +37,131 @@
     </linearGradient>
 
     <!-- Subtle Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45"/>
+    <pattern id="headerGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.35"/>
     </pattern>
 
     <style>
-      @keyframes pulse {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.4; transform: scale(0.95); }
-      }
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
       .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .badge-pulse { animation: pulse 2.5s ease-in-out infinite; }
+      .glow-dot { animation: pulseDot 2.5s ease-in-out infinite; }
+      @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
     </style>
   </defs>
 
   <!-- Canvas Box -->
-  <rect width="1200" height="380" rx="20" fill="url(#bgGrad)"/>
-  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="378" rx="19" stroke="url(#borderGrad)" stroke-width="1.5" fill="none"/>
+  <rect width="1100" height="380" rx="18" fill="url(#headerBg)"/>
+  <rect width="1100" height="380" rx="18" fill="url(#headerGrid)"/>
+  <rect x="0.5" y="0.5" width="1099" height="379" rx="17.5" stroke="url(#headerBorder)" stroke-width="1" fill="none"/>
+  <rect x="0" y="0" width="5" height="380" rx="2.5" fill="url(#headerAccent)"/>
 
   <!-- Ambient Glow Blobs -->
-  <circle cx="160" cy="80" r="140" fill="#38BDF8" fill-opacity="0.05" filter="blur(60px)"/>
-  <circle cx="1020" cy="180" r="180" fill="#6366F1" fill-opacity="0.08" filter="blur(70px)"/>
+  <circle cx="160" cy="80" r="140" fill="#38BDF8" fill-opacity="0.06"/>
+  <circle cx="950" cy="180" r="160" fill="#6366F1" fill-opacity="0.08"/>
 
-  <!-- ==================== LEFT COLUMN: IDENTITY & PROOF ==================== -->
-  <g transform="translate(60, 48)" class="font-sans">
+  <!-- ==================== LEFT COLUMN: IDENTITY & METRICS ==================== -->
+  <g transform="translate(48, 44)" class="font-sans">
     
     <!-- Top Availability Pill -->
     <g>
       <rect width="320" height="30" rx="15" fill="#111827" stroke="#334155" stroke-width="1"/>
-      <circle cx="16" cy="15" r="4.5" fill="#10B981" class="badge-pulse"/>
+      <circle cx="16" cy="15" r="4.5" fill="#10B981" class="glow-dot"/>
       <text x="28" y="19" fill="#94A3B8" font-size="11" font-weight="600" class="font-mono" letter-spacing="0.5">OPEN FOR PROJECTS &amp; RETAINERS</text>
     </g>
 
     <!-- Name & Role -->
-    <text x="0" y="86" fill="#F8FAFC" font-size="52" font-weight="800" letter-spacing="-1.5">Inayat Ali</text>
-    <text x="0" y="124" fill="url(#textGrad)" font-size="24" font-weight="700" letter-spacing="-0.3">Senior React Native &amp; Full-Stack Architect</text>
+    <text x="0" y="86" fill="#F8FAFC" font-size="50" font-weight="800" letter-spacing="-1.5">Inayat Ali</text>
+    <text x="0" y="122" fill="url(#textGrad)" font-size="22" font-weight="700" letter-spacing="-0.3">Senior React Native &amp; Full-Stack Architect</text>
 
     <!-- Value Proposition -->
-    <text x="0" y="162" fill="#94A3B8" font-size="16" font-weight="400">Architecting end-to-end iOS, Android &amp; Next.js platforms for founders &amp; teams.</text>
-    <text x="0" y="186" fill="#64748B" font-size="14" font-weight="400">From initial schema contracts to Apple App Store &amp; Google Play production approval.</text>
+    <text x="0" y="158" fill="#94A3B8" font-size="15" font-weight="400">Architecting production iOS, Android &amp; Next.js platforms for founders &amp; teams.</text>
+    <text x="0" y="180" fill="#64748B" font-size="13.5" font-weight="400">From initial Figma schemas to Apple App Store &amp; Google Play production approval.</text>
 
     <!-- Key Credential Chips -->
-    <g transform="translate(0, 218)">
+    <g transform="translate(0, 210)">
       <!-- Chip 1: Upwork Top Rated -->
       <g>
-        <rect width="210" height="38" rx="10" fill="#111827" stroke="#2563EB" stroke-width="1.2" stroke-opacity="0.6"/>
-        <text x="14" y="23" fill="#60A5FA" font-size="12" font-weight="700" class="font-mono">★ TOP RATED (100% JSS)</text>
+        <rect width="200" height="38" rx="10" fill="#111827" stroke="#2563EB" stroke-width="1.2" stroke-opacity="0.6"/>
+        <text x="14" y="23" fill="#60A5FA" font-size="11.5" font-weight="700" class="font-mono">★ TOP RATED (100% JSS)</text>
       </g>
 
       <!-- Chip 2: 15 Case Studies -->
-      <g transform="translate(222, 0)">
-        <rect width="180" height="38" rx="10" fill="#111827" stroke="#059669" stroke-width="1.2" stroke-opacity="0.6"/>
-        <text x="14" y="23" fill="#34D399" font-size="12" font-weight="700" class="font-mono">✓ 15 CASE STUDIES</text>
+      <g transform="translate(210, 0)">
+        <rect width="170" height="38" rx="10" fill="#111827" stroke="#059669" stroke-width="1.2" stroke-opacity="0.6"/>
+        <text x="14" y="23" fill="#34D399" font-size="11.5" font-weight="700" class="font-mono">✓ 15 CASE STUDIES</text>
       </g>
 
       <!-- Chip 3: Response SLA -->
-      <g transform="translate(414, 0)">
+      <g transform="translate(390, 0)">
         <rect width="160" height="38" rx="10" fill="#111827" stroke="#6366F1" stroke-width="1.2" stroke-opacity="0.6"/>
-        <text x="14" y="23" fill="#A5B4FC" font-size="12" font-weight="700" class="font-mono">⚡ &lt; 1 HR REPLY SLA</text>
+        <text x="14" y="23" fill="#A5B4FC" font-size="11.5" font-weight="700" class="font-mono">⚡ &lt; 1 HR REPLY SLA</text>
       </g>
     </g>
 
     <!-- Footnote: Direct IP ownership -->
-    <g transform="translate(0, 280)">
+    <g transform="translate(0, 275)">
       <circle cx="6" cy="6" r="3" fill="#38BDF8"/>
       <text x="16" y="10" fill="#64748B" font-size="12" font-weight="500">100% Code &amp; IP Ownership • Weekly TestFlight Builds • Mutual NDA Ready</text>
     </g>
   </g>
 
   <!-- ==================== RIGHT COLUMN: PHONE RELEASE TELEMETRY (HARD-ANCHORED RIGHT) ==================== -->
-  <g transform="translate(865, 25)" class="font-sans">
+  <g transform="translate(790, 25)" class="font-sans">
     
     <!-- Phone Outer Shell -->
-    <rect width="285" height="330" rx="36" fill="#0A0E17" stroke="#334155" stroke-width="2.5"/>
-    <rect x="8" y="8" width="269" height="314" rx="28" fill="#0F172A"/>
+    <rect width="275" height="330" rx="36" fill="#0A0E17" stroke="#334155" stroke-width="2.5"/>
+    <rect x="7" y="7" width="261" height="316" rx="29" fill="#0F172A"/>
 
     <!-- Dynamic Island / Top Notch -->
-    <rect x="92" y="16" width="100" height="18" rx="9" fill="#000000"/>
-    <circle cx="175" cy="25" r="3.5" fill="#1E293B"/>
+    <rect x="87" y="15" width="100" height="18" rx="9" fill="#000000"/>
+    <circle cx="170" cy="24" r="3.5" fill="#1E293B"/>
 
     <!-- Phone Screen Header -->
-    <g transform="translate(24, 48)">
-      <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="800" class="font-mono" letter-spacing="0.5">RELEASE TELEMETRY</text>
-      <circle cx="225" cy="12" r="4" fill="#10B981" class="badge-pulse"/>
+    <g transform="translate(20, 48)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="12" font-weight="800" class="font-mono" letter-spacing="0.5">RELEASE TELEMETRY</text>
+      <circle cx="218" cy="12" r="4" fill="#10B981" class="glow-dot"/>
     </g>
 
     <!-- Row 1: iOS App Store -->
-    <g transform="translate(16, 76)">
-      <rect width="253" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
-      <circle cx="32" cy="33" r="16" fill="#1E293B"/>
-      <text x="26" y="38" fill="#F8FAFC" font-size="14" font-weight="700"></text>
+    <g transform="translate(14, 76)">
+      <rect width="247" height="66" rx="12" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+      <circle cx="30" cy="33" r="15" fill="#1E293B"/>
+      <text x="24" y="38" fill="#F8FAFC" font-size="14" font-weight="700"></text>
 
-      <text x="56" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Apple App Store</text>
-      <text x="56" y="45" fill="#64748B" font-size="11" class="font-mono">iOS • StoreKit • HIG</text>
+      <text x="54" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Apple App Store</text>
+      <text x="54" y="45" fill="#64748B" font-size="10.5" class="font-mono">iOS • StoreKit • HIG</text>
 
       <!-- Status Pill -->
-      <rect x="170" y="22" width="72" height="22" rx="11" fill="url(#statusGreenGrad)"/>
-      <text x="181" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">APPROVED</text>
+      <rect x="166" y="22" width="70" height="22" rx="11" fill="url(#statusGreenGrad)"/>
+      <text x="176" y="37" fill="#FFFFFF" font-size="9.5" font-weight="800" class="font-mono">APPROVED</text>
     </g>
 
     <!-- Row 2: Google Play -->
-    <g transform="translate(16, 152)">
-      <rect width="253" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
-      <circle cx="32" cy="33" r="16" fill="#1E293B"/>
-      <polygon points="28,26 38,33 28,40" fill="#38BDF8"/>
+    <g transform="translate(14, 152)">
+      <rect width="247" height="66" rx="12" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+      <circle cx="30" cy="33" r="15" fill="#1E293B"/>
+      <polygon points="26,26 36,33 26,40" fill="#38BDF8"/>
 
-      <text x="56" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Google Play Store</text>
-      <text x="56" y="45" fill="#64748B" font-size="11" class="font-mono">Android • AAB Target 34</text>
+      <text x="54" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Google Play Store</text>
+      <text x="54" y="45" fill="#64748B" font-size="10.5" class="font-mono">Android • AAB Target 34</text>
 
       <!-- Status Pill -->
-      <rect x="170" y="22" width="72" height="22" rx="11" fill="url(#statusGreenGrad)"/>
-      <text x="192" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">LIVE</text>
+      <rect x="176" y="22" width="60" height="22" rx="11" fill="url(#statusGreenGrad)"/>
+      <text x="194" y="37" fill="#FFFFFF" font-size="9.5" font-weight="800" class="font-mono">LIVE</text>
     </g>
 
     <!-- Row 3: Next.js Web Platform -->
-    <g transform="translate(16, 228)">
-      <rect width="253" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
-      <circle cx="32" cy="33" r="16" fill="#1E293B"/>
-      <text x="25" y="38" fill="#F8FAFC" font-size="13" font-weight="800" class="font-mono">N</text>
+    <g transform="translate(14, 228)">
+      <rect width="247" height="66" rx="12" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+      <circle cx="30" cy="33" r="15" fill="#1E293B"/>
+      <text x="24" y="38" fill="#F8FAFC" font-size="13" font-weight="800" class="font-mono">N</text>
 
-      <text x="56" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Full-Stack Web</text>
-      <text x="56" y="45" fill="#64748B" font-size="11" class="font-mono">Next.js 14 • Supabase</text>
+      <text x="54" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Full-Stack Web</text>
+      <text x="54" y="45" fill="#64748B" font-size="10.5" class="font-mono">Next.js 14 • Supabase</text>
 
       <!-- Status Pill -->
-      <rect x="170" y="22" width="72" height="22" rx="11" fill="#2563EB"/>
-      <text x="178" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">DEPLOYED</text>
+      <rect x="166" y="22" width="70" height="22" rx="11" fill="#2563EB"/>
+      <text x="174" y="37" fill="#FFFFFF" font-size="9.5" font-weight="800" class="font-mono">DEPLOYED</text>
     </g>
 
   </g>

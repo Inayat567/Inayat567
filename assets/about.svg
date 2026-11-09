@@ -1,0 +1,94 @@
+<svg width="1100" height="400" viewBox="0 0 1100 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient: innunext.com dark base (#0B0F19) with subtle indigo tint -->
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1124"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0E172E"/>
+    </linearGradient>
+
+    <linearGradient id="aboutAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="aboutCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141C30"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <pattern id="aboutGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1100" height="400" rx="18" fill="url(#aboutBg)"/>
+  <rect width="1100" height="400" rx="18" fill="url(#aboutGrid)"/>
+  <rect x="0.5" y="0.5" width="1099" height="399" rx="17.5" stroke="#6366F1" stroke-width="1" stroke-opacity="0.3" fill="none"/>
+  <rect x="0" y="0" width="5" height="400" rx="2.5" fill="url(#aboutAccent)"/>
+
+  <!-- Title & Subtitle -->
+  <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">⚡ About Me</text>
+  <rect x="44" y="70" width="180" height="2" fill="#6366F1" opacity="0.6"/>
+  <text x="44" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" fill="#94A3B8">High-performance cross-platform engineer bridging Figma designs with Apple &amp; Google store releases.</text>
+
+  <!-- ROW 1 (Y: 122) -->
+  <!-- Card 1: Role -->
+  <rect x="44" y="122" width="240" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="68" cy="146" r="4" fill="#38BDF8"/>
+  <text x="80" y="150" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#818CF8" letter-spacing="1">ROLE &amp; FOCUS</text>
+  <text x="68" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">Senior React Native</text>
+  <text x="68" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">Cross-Platform Specialist</text>
+
+  <!-- Card 2: Company -->
+  <rect x="304" y="122" width="240" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="328" cy="146" r="4" fill="#6366F1"/>
+  <text x="340" y="150" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#818CF8" letter-spacing="1">AGENCY &amp; STUDIO</text>
+  <text x="328" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">InnuNext Technologies</text>
+  <text x="328" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">Founder &amp; Principal Engineer</text>
+
+  <!-- Card 3: Credential -->
+  <rect x="564" y="122" width="240" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#10B981" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="588" cy="146" r="4" fill="#10B981"/>
+  <text x="600" y="150" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#34D399" letter-spacing="1">FREELANCE STATUS</text>
+  <text x="588" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">Top Rated (100% JSS)</text>
+  <text x="588" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">Upwork Verified Badge</text>
+
+  <!-- Card 4: Experience -->
+  <rect x="824" y="122" width="232" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="848" cy="146" r="4" fill="#38BDF8"/>
+  <text x="860" y="150" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#38BDF8" letter-spacing="1">EXPERIENCE</text>
+  <text x="848" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">4+ Years Production</text>
+  <text x="848" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">15+ Commercial Builds</text>
+
+  <!-- ROW 2 (Y: 252) -->
+  <!-- Card 5: Timezone -->
+  <rect x="44" y="252" width="240" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="68" cy="276" r="4" fill="#A855F7"/>
+  <text x="80" y="280" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#C084FC" letter-spacing="1">TIMEZONE OVERLAP</text>
+  <text x="68" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">US &amp; EU Working Hours</text>
+  <text x="68" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">4–6 Hours Daily Overlap</text>
+
+  <!-- Card 6: Ownership -->
+  <rect x="304" y="252" width="240" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="328" cy="276" r="4" fill="#10B981"/>
+  <text x="340" y="280" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#34D399" letter-spacing="1">INTELLECTUAL PROPERTY</text>
+  <text x="328" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">100% Client Ownership</text>
+  <text x="328" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">Clean Git &amp; Documentation</text>
+
+  <!-- Card 7: Response SLA -->
+  <rect x="564" y="252" width="240" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="588" cy="276" r="4" fill="#F59E0B"/>
+  <text x="600" y="280" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#FBBF24" letter-spacing="1">COMMUNICATION SLA</text>
+  <text x="588" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">&lt; 1 Hour Average Reply</text>
+  <text x="588" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">Slack, WhatsApp &amp; Teams</text>
+
+  <!-- Card 8: Architecture -->
+  <rect x="824" y="252" width="232" height="110" rx="12" fill="url(#aboutCardBg)" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.35"/>
+  <circle cx="848" cy="276" r="4" fill="#38BDF8"/>
+  <text x="860" y="280" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#38BDF8" letter-spacing="1">CORE PARADIGM</text>
+  <text x="848" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="700" fill="#F8FAFC">Offline-First Engine</text>
+  <text x="848" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">SQLite + Silent Cloud Sync</text>
+</svg>
+

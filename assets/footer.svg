@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 140" width="1100" height="140" fill="none">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#0A0E1A"/>
+    </linearGradient>
+
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#10B981" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="footerGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1100" height="140" rx="16" fill="url(#footerBg)" stroke="#1E293B" stroke-width="0.8"/>
+  <ellipse cx="550" cy="30" rx="340" ry="50" fill="url(#footerGlow)"/>
+
+  <rect x="200" y="32" width="700" height="1.5" fill="url(#footerLine)"/>
+
+  <text x="550" y="68" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Crafting Scalable, Offline-First Mobile &amp; Full-Stack Solutions</text>
+  <text x="550" y="94" fill="#94A3B8" font-family="ui-monospace, monospace" font-size="11.5" font-weight="600" text-anchor="middle" letter-spacing="2">REACT NATIVE  •  NEXT.JS 14  •  SQLITE &amp; REAL-TIME  •  APP STORE DEPLOYED</text>
+  <text x="550" y="116" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle">© Inayat Ali · Founder @ InnuNext Technologies · Open for Select Client Engagements</text>
+
+  <rect x="200" y="126" width="700" height="1.5" fill="url(#footerLine)"/>
+</svg>
+

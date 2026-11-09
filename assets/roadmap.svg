@@ -1,0 +1,93 @@
+<svg width="1100" height="480" viewBox="0 0 1100 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient: innunext.com dark base (#0B0F19) with subtle emerald tint -->
+    <linearGradient id="roadmapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081C1A"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#081422"/>
+    </linearGradient>
+
+    <linearGradient id="roadmapAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="doneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="progGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="upGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <pattern id="roadmapGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1100" height="480" rx="18" fill="url(#roadmapBg)"/>
+  <rect width="1100" height="480" rx="18" fill="url(#roadmapGrid)"/>
+  <rect x="0.5" y="0.5" width="1099" height="479" rx="17.5" stroke="#10B981" stroke-width="1" stroke-opacity="0.3" fill="none"/>
+  <rect x="0" y="0" width="5" height="480" rx="2.5" fill="url(#roadmapAccent)"/>
+
+  <!-- Title & Underline -->
+  <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#F8FAFC">🎯 2026 Engineering Roadmap</text>
+  <rect x="44" y="70" width="260" height="2" fill="#10B981" opacity="0.6"/>
+
+  <!-- Item 1: Done -->
+  <rect x="44" y="92" width="1012" height="54" rx="10" fill="#0C261E" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="74" cy="119" r="14" fill="url(#doneGrad)"/>
+  <text x="74" y="124" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ffffff" font-weight="800">✓</text>
+  <text x="104" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">Ship 15+ Production Mobile &amp; Full-Stack Apps to App Store &amp; Google Play</text>
+  <rect x="896" y="105" width="144" height="28" rx="14" fill="#059669" opacity="0.35"/>
+  <text x="968" y="123" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="1">COMPLETED</text>
+
+  <!-- Item 2: Done -->
+  <rect x="44" y="154" width="1012" height="54" rx="10" fill="#0C261E" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="74" cy="181" r="14" fill="url(#doneGrad)"/>
+  <text x="74" y="186" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ffffff" font-weight="800">✓</text>
+  <text x="104" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">Attain Upwork Top Rated Status with 100% Job Success Score (JSS)</text>
+  <rect x="896" y="167" width="144" height="28" rx="14" fill="#059669" opacity="0.35"/>
+  <text x="968" y="185" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="1">COMPLETED</text>
+
+  <!-- Item 3: In Progress -->
+  <rect x="44" y="216" width="1012" height="54" rx="10" fill="#10253B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="74" cy="243" r="14" fill="url(#progGrad)"/>
+  <text x="74" y="248" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ffffff" font-weight="800">↻</text>
+  <text x="104" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">Pioneer Offline-First SQLite &amp; TurboModules Architecture for High-Scale Apps</text>
+  <rect x="896" y="229" width="144" height="28" rx="14" fill="#0284C7" opacity="0.35"/>
+  <text x="968" y="247" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1">IN PROGRESS</text>
+
+  <!-- Item 4: In Progress -->
+  <rect x="44" y="278" width="1012" height="54" rx="10" fill="#10253B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="74" cy="305" r="14" fill="url(#progGrad)"/>
+  <text x="74" y="310" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ffffff" font-weight="800">↻</text>
+  <text x="104" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">Integrate On-Device Local AI &amp; Vector Search in React Native (ExecuTorch / MLC)</text>
+  <rect x="896" y="291" width="144" height="28" rx="14" fill="#0284C7" opacity="0.35"/>
+  <text x="968" y="309" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1">IN PROGRESS</text>
+
+  <!-- Item 5: In Progress -->
+  <rect x="44" y="340" width="1012" height="54" rx="10" fill="#10253B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="74" cy="367" r="14" fill="url(#progGrad)"/>
+  <text x="74" y="372" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ffffff" font-weight="800">↻</text>
+  <text x="104" y="372" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">Publish InnuNext Mobile Engineering Playbooks &amp; Open-Source Sync Helpers</text>
+  <rect x="896" y="353" width="144" height="28" rx="14" fill="#0284C7" opacity="0.35"/>
+  <text x="968" y="371" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1">IN PROGRESS</text>
+
+  <!-- Item 6: Upcoming -->
+  <rect x="44" y="402" width="1012" height="54" rx="10" fill="#2E1C0A" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="74" cy="429" r="14" fill="url(#upGrad)"/>
+  <text x="74" y="434" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ffffff" font-weight="800">⧖</text>
+  <text x="104" y="434" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#E2E8F0">Scale InnuNext Technologies to 10+ Retainer Startup Clients Globally</text>
+  <rect x="896" y="415" width="144" height="28" rx="14" fill="#B45309" opacity="0.35"/>
+  <text x="968" y="433" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#FBBF24" letter-spacing="1">UPCOMING</text>
+</svg>
+

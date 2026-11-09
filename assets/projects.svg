@@ -1,0 +1,199 @@
+<svg width="1100" height="780" viewBox="0 0 1100 780" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Outer Container Background Gradient (innunext.com deep navy palette) -->
+    <linearGradient id="containerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1626"/>
+      <stop offset="60%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#070B12"/>
+    </linearGradient>
+
+    <!-- Accent Border Line Gradient -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <!-- Project 1: SRT Driver (Deep Sky / Navy) -->
+    <linearGradient id="proj1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D233A"/>
+      <stop offset="100%" stop-color="#081422"/>
+    </linearGradient>
+
+    <!-- Project 2: The Bridger Network (Deep Indigo / Slate) -->
+    <linearGradient id="proj2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17193B"/>
+      <stop offset="100%" stop-color="#0D0F24"/>
+    </linearGradient>
+
+    <!-- Project 3: Mashrab-e-Hamdania (Deep Emerald / Forest) -->
+    <linearGradient id="proj3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062920"/>
+      <stop offset="100%" stop-color="#031712"/>
+    </linearGradient>
+
+    <!-- Project 4: Cortizap (Deep Purple / Magenta) -->
+    <linearGradient id="proj4Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D113B"/>
+      <stop offset="100%" stop-color="#16081E"/>
+    </linearGradient>
+
+    <!-- Project 5: GM Station (Deep Cyan / Electric) -->
+    <linearGradient id="proj5Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082833"/>
+      <stop offset="100%" stop-color="#04161C"/>
+    </linearGradient>
+
+    <!-- Project 6: TicketNow (Deep Amber / Bronze) -->
+    <linearGradient id="proj6Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E1C0A"/>
+      <stop offset="100%" stop-color="#170E04"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="1100" height="780" rx="18" fill="url(#containerBg)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="0" y="0" width="5" height="780" rx="2.5" fill="url(#accentLine)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(44, 42)" class="font-sans">
+    <text x="0" y="22" font-size="26" font-weight="800" fill="#F8FAFC">🚀 Featured Production Work</text>
+    <rect x="0" y="34" width="280" height="2.5" rx="1.2" fill="#38BDF8" opacity="0.6"/>
+  </g>
+
+  <!-- ==================== ROW 1 (y: 104) ==================== -->
+  
+  <!-- CARD 1: SRT Driver -->
+  <g transform="translate(44, 104)" class="font-sans">
+    <rect width="488" height="195" rx="14" fill="url(#proj1Bg)" stroke="#0284C7" stroke-width="0.8" stroke-opacity="0.4"/>
+    <!-- Title -->
+    <text x="24" y="34" font-size="18" font-weight="700" fill="#F8FAFC">🚐 SRT Driver</text>
+    <!-- Subtitle / Role -->
+    <text x="24" y="56" font-size="13" font-weight="700" fill="#38BDF8">School Transport &amp; Fleet Dispatch Platform</text>
+    <text x="24" y="78" font-size="12" fill="#94A3B8">Real-time GPS route navigation (@turf/turf), offline queue,</text>
+    <text x="24" y="96" font-size="12" fill="#94A3B8">FCM dispatcher notifications &amp; 99.2% delivery compliance.</text>
+    <!-- Tech Pills -->
+    <g transform="translate(24, 118)">
+      <rect width="102" height="26" rx="6" fill="#111827" stroke="#38BDF8" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="51" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#38BDF8">React Native</text>
+
+      <rect x="110" width="94" height="26" rx="6" fill="#111827" stroke="#38BDF8" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="157" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#38BDF8">Google Maps</text>
+
+      <rect x="212" width="92" height="26" rx="6" fill="#111827" stroke="#38BDF8" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="258" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#38BDF8">Redux Persist</text>
+    </g>
+    <!-- Status Footer -->
+    <text x="24" y="174" font-size="11.5" font-weight="600" fill="#34D399" class="font-mono">✓ Production — App Store Live • Client System</text>
+  </g>
+
+  <!-- CARD 2: The Bridger Network -->
+  <g transform="translate(568, 104)" class="font-sans">
+    <rect width="488" height="195" rx="14" fill="url(#proj2Bg)" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="24" y="34" font-size="18" font-weight="700" fill="#F8FAFC">💬 The Bridger Network</text>
+    <text x="24" y="56" font-size="13" font-weight="700" fill="#818CF8">End-to-End Encrypted Team Chat Platform</text>
+    <text x="24" y="78" font-size="12" fill="#94A3B8">Zero-lag WebSockets messaging, local encrypted SQLite</text>
+    <text x="24" y="96" font-size="12" fill="#94A3B8">storage, multi-language localization &amp; instant push delivery.</text>
+    <g transform="translate(24, 118)">
+      <rect width="102" height="26" rx="6" fill="#111827" stroke="#818CF8" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="51" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#818CF8">React Native</text>
+
+      <rect x="110" width="88" height="26" rx="6" fill="#111827" stroke="#818CF8" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="154" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#818CF8">WebSockets</text>
+
+      <rect x="206" width="76" height="26" rx="6" fill="#111827" stroke="#818CF8" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="244" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#818CF8">SQLite DB</text>
+    </g>
+    <text x="24" y="174" font-size="11.5" font-weight="600" fill="#34D399" class="font-mono">✓ Production — Live on App Store &amp; Google Play</text>
+  </g>
+
+  <!-- ==================== ROW 2 (y: 324) ==================== -->
+
+  <!-- CARD 3: Mashrab-e-Hamdania -->
+  <g transform="translate(44, 324)" class="font-sans">
+    <rect width="488" height="195" rx="14" fill="url(#proj3Bg)" stroke="#059669" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="24" y="34" font-size="18" font-weight="700" fill="#F8FAFC">🕌 Mashrab-e-Hamdania</text>
+    <text x="24" y="56" font-size="13" font-weight="700" fill="#34D399">Spiritual Lifestyle &amp; Prayer Companion</text>
+    <text x="24" y="78" font-size="12" fill="#94A3B8">High-performance offline Quran audio streaming, precise prayer</text>
+    <text x="24" y="96" font-size="12" fill="#94A3B8">times calculation engine &amp; hardware magnetometer Qibla.</text>
+    <g transform="translate(24, 118)">
+      <rect width="102" height="26" rx="6" fill="#111827" stroke="#34D399" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="51" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#34D399">React Native</text>
+
+      <rect x="110" width="86" height="26" rx="6" fill="#111827" stroke="#34D399" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="153" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#34D399">Sensors API</text>
+
+      <rect x="204" width="94" height="26" rx="6" fill="#111827" stroke="#34D399" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="251" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#34D399">Audio Engine</text>
+    </g>
+    <text x="24" y="174" font-size="11.5" font-weight="600" fill="#34D399" class="font-mono">★ 10,000+ Downloads • 5.0 Rating on Google Play</text>
+  </g>
+
+  <!-- CARD 4: Cortizap -->
+  <g transform="translate(568, 324)" class="font-sans">
+    <rect width="488" height="195" rx="14" fill="url(#proj4Bg)" stroke="#A855F7" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="24" y="34" font-size="18" font-weight="700" fill="#F8FAFC">🧠 Cortizap</text>
+    <text x="24" y="56" font-size="13" font-weight="700" fill="#C084FC">Neuroscience Rapid Stress Reset &amp; Wellness</text>
+    <text x="24" y="78" font-size="12" fill="#94A3B8">Interactive 30-second breathing pacer, gamified progress garden,</text>
+    <text x="24" y="96" font-size="12" fill="#94A3B8">spatial soundscapes &amp; RevenueCat StoreKit subscription paywall.</text>
+    <g transform="translate(24, 118)">
+      <rect width="102" height="26" rx="6" fill="#111827" stroke="#C084FC" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="51" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#C084FC">React Native</text>
+
+      <rect x="110" width="92" height="26" rx="6" fill="#111827" stroke="#C084FC" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="156" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#C084FC">RevenueCat</text>
+
+      <rect x="210" width="84" height="26" rx="6" fill="#111827" stroke="#C084FC" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="252" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#C084FC">StoreKit IAP</text>
+    </g>
+    <text x="24" y="174" font-size="11.5" font-weight="600" fill="#34D399" class="font-mono">✓ Production — Live on Apple App Store</text>
+  </g>
+
+  <!-- ==================== ROW 3 (y: 544) ==================== -->
+
+  <!-- CARD 5: GM Station -->
+  <g transform="translate(44, 544)" class="font-sans">
+    <rect width="488" height="195" rx="14" fill="url(#proj5Bg)" stroke="#0891B2" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="24" y="34" font-size="18" font-weight="700" fill="#F8FAFC">⚡ GM Station</text>
+    <text x="24" y="56" font-size="13" font-weight="700" fill="#22D3EE">IoT EV Charging Station Bluetooth Companion</text>
+    <text x="24" y="78" font-size="12" fill="#94A3B8">Low-latency BLE GATT hardware pairing, offline charging</text>
+    <text x="24" y="96" font-size="12" fill="#94A3B8">session control, telemetry logging &amp; cloud billing reconcile.</text>
+    <g transform="translate(24, 118)">
+      <rect width="102" height="26" rx="6" fill="#111827" stroke="#22D3EE" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="51" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#22D3EE">React Native</text>
+
+      <rect x="110" width="86" height="26" rx="6" fill="#111827" stroke="#22D3EE" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="153" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#22D3EE">BLE GATT</text>
+
+      <rect x="204" width="86" height="26" rx="6" fill="#111827" stroke="#22D3EE" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="247" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#22D3EE">Supabase</text>
+    </g>
+    <text x="24" y="174" font-size="11.5" font-weight="600" fill="#38BDF8" class="font-mono">⚡ Hardware IoT Companion — Verified Architecture</text>
+  </g>
+
+  <!-- CARD 6: TicketNow -->
+  <g transform="translate(568, 544)" class="font-sans">
+    <rect width="488" height="195" rx="14" fill="url(#proj6Bg)" stroke="#D97706" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="24" y="34" font-size="18" font-weight="700" fill="#F8FAFC">🎫 TicketNow</text>
+    <text x="24" y="56" font-size="13" font-weight="700" fill="#FBBF24">Transit Ticketing &amp; Fleet Admin Ecosystem</text>
+    <text x="24" y="78" font-size="12" fill="#94A3B8">Cross-platform passenger app with real-time seat locking,</text>
+    <text x="24" y="96" font-size="12" fill="#94A3B8">15-day forward reservations &amp; multi-tenant fleet admin portal.</text>
+    <g transform="translate(24, 118)">
+      <rect width="90" height="26" rx="6" fill="#111827" stroke="#FBBF24" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="45" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#FBBF24">Next.js 14</text>
+
+      <rect x="98" width="102" height="26" rx="6" fill="#111827" stroke="#FBBF24" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="149" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#FBBF24">React Native</text>
+
+      <rect x="208" width="88" height="26" rx="6" fill="#111827" stroke="#FBBF24" stroke-width="0.7" stroke-opacity="0.5"/>
+      <text x="252" y="17" text-anchor="middle" font-size="11" font-weight="600" fill="#FBBF24">PostgreSQL</text>
+    </g>
+    <text x="24" y="174" font-size="11.5" font-weight="600" fill="#34D399" class="font-mono">✓ Production — Web &amp; Mobile Transit Platform</text>
+  </g>
+</svg>
+
