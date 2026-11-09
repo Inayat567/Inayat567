@@ -1,0 +1,72 @@
+<svg width="1200" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Center ambient glow -->
+  <circle cx="600" cy="40" r="55" fill="url(#centerGlow)">
+    <animate attributeName="r" values="45;65;45" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main beam line -->
+  <rect x="0" y="39" width="1200" height="2" fill="url(#beamGrad)"/>
+
+  <!-- Left circuit accent -->
+  <g opacity="0.6" stroke="#38BDF8" stroke-width="1.2" fill="none">
+    <path d="M 380 40 L 440 40 L 450 30 L 475 30"/>
+    <path d="M 410 40 L 425 50 L 465 50"/>
+  </g>
+  <circle cx="475" cy="30" r="2.5" fill="#38BDF8"/>
+  <circle cx="465" cy="50" r="2.5" fill="#10B981"/>
+
+  <!-- Right circuit accent -->
+  <g opacity="0.6" stroke="#818CF8" stroke-width="1.2" fill="none">
+    <path d="M 820 40 L 760 40 L 750 30 L 725 30"/>
+    <path d="M 790 40 L 775 50 L 735 50"/>
+  </g>
+  <circle cx="725" cy="30" r="2.5" fill="#818CF8"/>
+  <circle cx="735" cy="50" r="2.5" fill="#10B981"/>
+
+  <!-- Outer diamonds -->
+  <rect x="556" y="26" width="10" height="10" rx="2" fill="#38BDF8" opacity="0.8" transform="rotate(45 561 31)"/>
+  <rect x="634" y="26" width="10" height="10" rx="2" fill="#818CF8" opacity="0.8" transform="rotate(45 639 31)"/>
+
+  <!-- Center rotating diamond -->
+  <g transform="translate(600 40)">
+    <rect x="-12" y="-12" width="24" height="24" rx="4" fill="url(#diamondGrad)" filter="url(#softGlow)" transform="rotate(45)">
+      <animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#ffffff" opacity="0.95" transform="rotate(45)"/>
+  </g>
+
+  <!-- Floating sparkles -->
+  <circle cx="160" cy="25" r="1.5" fill="#38BDF8" opacity="0.7">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1040" cy="55" r="1.5" fill="#818CF8" opacity="0.7">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -33,7 +33,7 @@
 
     <!-- Subtle Grid Pattern -->
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.5"/>
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45"/>
     </pattern>
 
     <style>
@@ -41,18 +41,9 @@
         0%, 100% { opacity: 1; transform: scale(1); }
         50% { opacity: 0.4; transform: scale(0.95); }
       }
-      @keyframes floatSlow {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-4px); }
-      }
-      @keyframes checkAnim {
-        0% { stroke-dashoffset: 20; }
-        100% { stroke-dashoffset: 0; }
-      }
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
       .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
       .badge-pulse { animation: pulse 2.5s ease-in-out infinite; }
-      .phone-float { animation: floatSlow 5s ease-in-out infinite; }
     </style>
   </defs>
 
@@ -62,8 +53,8 @@
   <rect x="1" y="1" width="1198" height="378" rx="19" stroke="url(#borderGrad)" stroke-width="1.5" fill="none"/>
 
   <!-- Ambient Glow Blobs -->
-  <circle cx="150" cy="80" r="140" fill="#38BDF8" fill-opacity="0.04" filter="blur(60px)"/>
-  <circle cx="1000" cy="180" r="180" fill="#6366F1" fill-opacity="0.06" filter="blur(70px)"/>
+  <circle cx="160" cy="80" r="140" fill="#38BDF8" fill-opacity="0.05" filter="blur(60px)"/>
+  <circle cx="1020" cy="180" r="180" fill="#6366F1" fill-opacity="0.08" filter="blur(70px)"/>
 
   <!-- ==================== LEFT COLUMN: IDENTITY & PROOF ==================== -->
   <g transform="translate(60, 48)" class="font-sans">
@@ -111,67 +102,64 @@
     </g>
   </g>
 
-  <!-- ==================== RIGHT COLUMN: PHONE RELEASE TELEMETRY ==================== -->
-  <g transform="translate(850, 25)" class="phone-float font-sans">
+  <!-- ==================== RIGHT COLUMN: PHONE RELEASE TELEMETRY (HARD-ANCHORED RIGHT) ==================== -->
+  <g transform="translate(865, 25)" class="font-sans">
     
     <!-- Phone Outer Shell -->
-    <rect width="290" height="330" rx="36" fill="#0A0E17" stroke="#334155" stroke-width="2.5"/>
-    <rect x="8" y="8" width="274" height="314" rx="28" fill="#0F172A"/>
+    <rect width="285" height="330" rx="36" fill="#0A0E17" stroke="#334155" stroke-width="2.5"/>
+    <rect x="8" y="8" width="269" height="314" rx="28" fill="#0F172A"/>
 
     <!-- Dynamic Island / Top Notch -->
-    <rect x="95" y="16" width="100" height="18" rx="9" fill="#000000"/>
-    <circle cx="178" cy="25" r="3.5" fill="#1E293B"/>
+    <rect x="92" y="16" width="100" height="18" rx="9" fill="#000000"/>
+    <circle cx="175" cy="25" r="3.5" fill="#1E293B"/>
 
     <!-- Phone Screen Header -->
     <g transform="translate(24, 48)">
       <text x="0" y="16" fill="#F8FAFC" font-size="13" font-weight="800" class="font-mono" letter-spacing="0.5">RELEASE TELEMETRY</text>
-      <circle cx="230" cy="12" r="4" fill="#10B981" class="badge-pulse"/>
+      <circle cx="225" cy="12" r="4" fill="#10B981" class="badge-pulse"/>
     </g>
 
     <!-- Row 1: iOS App Store -->
-    <g transform="translate(18, 76)">
-      <rect width="254" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
-      <!-- Apple Logo Placeholder / Icon -->
+    <g transform="translate(16, 76)">
+      <rect width="253" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
       <circle cx="32" cy="33" r="16" fill="#1E293B"/>
       <text x="26" y="38" fill="#F8FAFC" font-size="14" font-weight="700"></text>
 
-      <text x="58" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Apple App Store</text>
-      <text x="58" y="45" fill="#64748B" font-size="11" class="font-mono">iOS • StoreKit • HIG</text>
+      <text x="56" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Apple App Store</text>
+      <text x="56" y="45" fill="#64748B" font-size="11" class="font-mono">iOS • StoreKit • HIG</text>
 
       <!-- Status Pill -->
-      <rect x="172" y="22" width="70" height="22" rx="11" fill="url(#statusGreenGrad)"/>
-      <text x="183" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">APPROVED</text>
+      <rect x="170" y="22" width="72" height="22" rx="11" fill="url(#statusGreenGrad)"/>
+      <text x="181" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">APPROVED</text>
     </g>
 
     <!-- Row 2: Google Play -->
-    <g transform="translate(18, 152)">
-      <rect width="254" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+    <g transform="translate(16, 152)">
+      <rect width="253" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
       <circle cx="32" cy="33" r="16" fill="#1E293B"/>
-      <!-- Play Icon Triangle -->
       <polygon points="28,26 38,33 28,40" fill="#38BDF8"/>
 
-      <text x="58" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Google Play Store</text>
-      <text x="58" y="45" fill="#64748B" font-size="11" class="font-mono">Android • AAB Target 34</text>
+      <text x="56" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Google Play Store</text>
+      <text x="56" y="45" fill="#64748B" font-size="11" class="font-mono">Android • AAB Target 34</text>
 
       <!-- Status Pill -->
-      <rect x="172" y="22" width="70" height="22" rx="11" fill="url(#statusGreenGrad)"/>
-      <text x="194" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">LIVE</text>
+      <rect x="170" y="22" width="72" height="22" rx="11" fill="url(#statusGreenGrad)"/>
+      <text x="192" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">LIVE</text>
     </g>
 
     <!-- Row 3: Next.js Web Platform -->
-    <g transform="translate(18, 228)">
-      <rect width="254" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
+    <g transform="translate(16, 228)">
+      <rect width="253" height="66" rx="14" fill="url(#phoneCardGrad)" stroke="#1E293B" stroke-width="1.2"/>
       <circle cx="32" cy="33" r="16" fill="#1E293B"/>
       <text x="25" y="38" fill="#F8FAFC" font-size="13" font-weight="800" class="font-mono">N</text>
 
-      <text x="58" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Full-Stack Web</text>
-      <text x="58" y="45" fill="#64748B" font-size="11" class="font-mono">Next.js 14 • Supabase</text>
+      <text x="56" y="27" fill="#F8FAFC" font-size="13" font-weight="700">Full-Stack Web</text>
+      <text x="56" y="45" fill="#64748B" font-size="11" class="font-mono">Next.js 14 • Supabase</text>
 
       <!-- Status Pill -->
-      <rect x="172" y="22" width="70" height="22" rx="11" fill="#2563EB"/>
-      <text x="180" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">DEPLOYED</text>
+      <rect x="170" y="22" width="72" height="22" rx="11" fill="#2563EB"/>
+      <text x="178" y="37" fill="#FFFFFF" font-size="10" font-weight="800" class="font-mono">DEPLOYED</text>
     </g>
 
   </g>
 </svg>
-
