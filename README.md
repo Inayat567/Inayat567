@@ -1,130 +1,213 @@
-# 👋 Hi, I'm Inayat Ali
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=0EA5E9&center=true&vCenter=true&width=800&lines=Top+Rated+React+Native+%7C+Full+Stack+Developer;Founder+%40+InnuNext+Technologies;Top+Rated+Upwork+Freelancer;Crafting+Scalable+Digital+Experiences+with+Passion" alt="Typing SVG" />
+  <a href="https://innunext.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Inayat567/Inayat567/main/assets/header.svg" alt="Inayat Ali — Senior React Native & Full-Stack Mobile Architect" width="100%" />
+  </a>
 </div>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/🌟%20Upwork-Top%20Rated-0EA5E9?style=for-the-badge&logo=upwork&logoColor=white&labelColor=0D1117" alt="Upwork Top Rated" />
-  <img src="https://img.shields.io/badge/💼%20Experience-3%2B%20Years-brightgreen?style=for-the-badge&logo=clock&logoColor=white&labelColor=0D1117" alt="Experience" />
-  <img src="https://img.shields.io/badge/🚀%20Projects-10%2B%20Production-blue?style=for-the-badge&logo=code&logoColor=white&labelColor=0D1117" alt="Projects" />
-  <img src="https://img.shields.io/badge/📱%20Location-Pakistan-orange?style=for-the-badge&logo=globe&logoColor=white&labelColor=0D1117" alt="Location" />
-</div>
+<p align="center">
+  <strong>Senior React Native & Full-Stack Architect delivering production-grade iOS, Android & Next.js applications.</strong><br>
+  I partner directly with founders, CTOs, and product teams to take ideas from Figma schemas all the way to App Store & Google Play approval.
+</p>
+
+<p align="center">
+  <a href="https://wa.me/923555369567?text=Hi%20Inayat%2C%20I%27d%20like%20to%20discuss%20a%20mobile%2Fweb%20project.">
+    <img src="https://img.shields.io/badge/WhatsApp-Chat%20Direct-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Chat" />
+  </a>
+  &nbsp;
+  <a href="https://calendly.com/inayatalibalti100/30min">
+    <img src="https://img.shields.io/badge/Calendly-Book%2015--Min%20Call-6366F1?style=for-the-badge&logo=calendly&logoColor=white" alt="Book a Call" />
+  </a>
+  &nbsp;
+  <a href="https://innunext.com/#projects">
+    <img src="https://img.shields.io/badge/Portfolio-15%20Case%20Studies-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="15 Case Studies" />
+  </a>
+  &nbsp;
+  <a href="https://www.upwork.com/freelancers/~01f9a28f1fe989e240">
+    <img src="https://img.shields.io/badge/Upwork-Top%20Rated%20(100%25)-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire on Upwork" />
+  </a>
+</p>
 
 ---
 
 <div align="center">
-  <em><strong>🚀 Building seamless, scalable mobile & web solutions that inspire and deliver real impact.</strong></em>  
-  <br><small>Based in the breathtaking Gilgit-Baltistan, Pakistan | Passionate about clean code, user-centric design, and innovative tech.</small>
+
+| 🏆 Upwork Status | ⭐ Client Rating | 📱 Case Studies | ⚡ Response SLA |
+| :---: | :---: | :---: | :---: |
+| **Top Rated (100% JSS)**<br><sub>Top 1% Global Freelancer</sub> | **5.0 / 5.0 Stars**<br><sub>Verified Client Reviews</sub> | **15 Production Builds**<br><sub>iOS, Android & Next.js</sub> | **&lt; 1 Hour Avg Reply**<br><sub>Direct to Lead Architect</sub> |
+
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## 🛠️ What I Architect & Deliver
 
-<div align="center">
-  <img src="https://img.shields.io/badge/🎯%20Core%20Focus-Mobile%20%26%20Web%20Innovation-blueviolet?style=flat-square&logo=react&logoColor=white" alt="Focus" />
-  <img src="https://img.shields.io/badge/🔄%203%2B%20Years%20Hands-On-green?style=flat-square&logo=nodejs&logoColor=white" alt="Experience" />
-  <img src="https://img.shields.io/badge/💡%20Philosophy-User-Centric%20%26%20Scalable-purple?style=flat-square&logo=designmodo&logoColor=white" alt="Philosophy" />
-</div>
-
-I'm a dedicated **Full Stack Developer** with a flair for crafting intuitive, high-performance applications that bridge ideas and execution. Specializing in **React Native** for cross-platform mobile magic and **React.js / Next.js** for dynamic web ecosystems, I thrive on modern tools, efficient architecture, and collaborative vibes to fuel startups and enterprises.
-
-- 🎯 **What Drives Me**: Turning complex challenges into elegant, scalable solutions with a mobile-first mindset and real-time flair.
-- 🔄 **My Journey**: 3+ years deep-diving into 10+ production-grade projects (kept confidential for clients) + 25+ open-source experiments to sharpen skills.
-- 💡 **My Mantra**: Code that not only works but delights—prioritizing accessibility, performance, and joy in every line.
-
-> "Build with passion. Deliver with precision. Innovate without limits." — Innu ✨
-
----
-
-## 🔧 Tech Arsenal
-
-<div align="center">
-
-<table align="center" width="100%">
+<table width="100%">
   <tr>
-    <th align="center" width="20%">**🌐 Languages & Runtime**</th>
-    <th align="center" width="20%">**📱 Mobile Mastery**</th>
-    <th align="center" width="20%">**🌍 Web Wizardry**</th>
-    <th align="center" width="20%">**⚙️ Backend Backbone**</th>
-    <th align="center" width="20%">**🛠️ Tools & Flow**</th>
-  </tr>
-  <tr>
-    <td align="center"><code>JavaScript</code> <code>TypeScript</code> <code>Node.js</code></td>
-    <td align="center"><code>React Native</code> <code>Expo</code> <code>Redux</code> <br><small>FCM • Notifee • Background Services</small></td>
-    <td align="center"><code>React.js</code> <code>Next.js</code> <code>Tailwind CSS</code> <br><small>Firebase • Supabase • Socket.IO</small></td>
-    <td align="center"><code>Express.js</code> <code>MongoDB</code> <br><small>Firebase RTDB • Firestore • Supabase Auth</small></td>
-    <td align="center"><code>GitHub</code> <code>REST APIs</code> <code>GitHub Actions</code> <br><small>Agile • Postman • Figma</small></td>
+    <td width="50%" valign="top">
+      <h3>📱 Mobile App Engineering</h3>
+      <ul>
+        <li><strong>Cross-Platform Fluidity:</strong> iOS & Android from a single TypeScript codebase using React Native & Expo SDK 51+ (New Architecture Fabric + TurboModules).</li>
+        <li><strong>Real-Time Systems:</strong> Live GPS background tracking, geofenced navigation (@turf/turf), WebSockets chat, and WebRTC audio/video calling.</li>
+        <li><strong>Hardware & Sensors:</strong> Bluetooth Low Energy (BLE) GATT telemetry, EV charging companion protocols, and camera QR scanning.</li>
+        <li><strong>Offline-First:</strong> Zero-data-loss local SQLite / WatermelonDB sync with persistent idempotent mutation outboxes.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌍 Full-Stack Web & Cloud</h3>
+      <ul>
+        <li><strong>Scalable Web Platforms:</strong> Next.js 14 (App Router), React, Tailwind CSS, and TypeScript admin portals.</li>
+        <li><strong>Cloud Backends:</strong> Supabase (PostgreSQL + Row-Level Security + Edge Functions) and Firebase Realtime Database.</li>
+        <li><strong>Monetization & Payments:</strong> RevenueCat StoreKit in-app purchases, Stripe Checkout, and PayPal webhooks.</li>
+        <li><strong>Store Release & Compliance:</strong> End-to-end Apple App Store & Google Play submissions, Privacy Manifests, and rejection troubleshooting.</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
+---
+
+## 🤝 How a Project Starts (Transparent & Low-Risk)
+
+```
+[ Step 1: Scope & NDA ] ──> [ Step 2: Milestone Roadmap ] ──> [ Step 3: Weekly Builds & Launch ]
+  Mutual NDA ready           24-hr milestone quote            Weekly TestFlight builds
+  Figma / wireframe review   Clear deliverables & SLA         100% source code & IP ownership
+```
+
+* **Direct Collaboration:** You work 1-on-1 with the senior engineer writing your code—zero agency bloat, zero account manager hand-offs.
+* **Flexible Invoicing:** Milestone-based contracts or monthly retainers via Stripe Invoicing, Deel, Wise Business, or Upwork Direct.
+* **Global Overlap:** 4 to 6 hours daily overlap with US, European, and Asian time zones.
+
+---
+
+## 🚀 Selected Production Case Studies
+
+<div align="center">
+
+| Project | Platform | Key Architecture Highlights | Links |
+| :--- | :---: | :--- | :---: |
+| **SRT Driver** | `iOS` `Android` | Real-time fleet GPS tracking, geofenced turn-by-turn routing, offline Redux Persist queue, and FCM dispatch notifications with 99.2% delivery compliance. | [ App Store](https://apps.apple.com/us/app/srt-driver-app/id6757174613) • [Case Study](https://innunext.com/projects/srt-driver/) |
+| **The Bridger Network** | `iOS` `Android` | End-to-end encrypted team chat, local SQLite caching, multi-language localization, and instant push delivery via APNs/FCM. | [ App Store](https://apps.apple.com/au/app/the-bridger-network/id6756187446) • [▶ Google Play](https://play.google.com/store/apps/details?id=com.thebridgernetwork.app) • [Case Study](https://innunext.com/projects/the-bridger-network/) |
+| **Mashrab-e-Hamdania** | `Android` | High-performance offline spiritual companion with 10,000+ downloads, 5.0 rating, offline Quran audio, and magnetometer Qibla compass. | [▶ Google Play](https://play.google.com/store/apps/details?id=com.in.mashrabehamdania) • [Case Study](https://innunext.com/projects/mashrab-e-hamdania/) |
+| **Cortizap** | `iOS` | Neuroscience wellness app with 30-second rapid stress resets, interactive breathing pacing, and RevenueCat subscription tiers. | [ App Store](https://apps.apple.com/us/app/cortizap/id6749543209) • [Case Study](https://innunext.com/projects/cortizap/) |
+| **GM Station** | `Hardware IoT` | EV charging hardware companion connecting via Bluetooth Low Energy (BLE) GATT for offline session telemetry and Supabase billing sync. | [Case Study](https://innunext.com/projects/gm-station/) |
+| **TicketNow** | `Web & Mobile` | Unified cross-platform transit booking engine with interactive seat locking, 15-day reservations, and an enterprise fleet admin portal. | [Case Study](https://innunext.com/projects/ticketnow/) |
+
+</div>
+
+> ⚡ **Active Development / Stealth Pilots:** Currently architecting a fleet mobile app for an autonomous robotaxi pilot in the US, an offline EV hardware scanner, and an on-device computer vision app with TensorFlow.js & MediaPipe.  
+> 👉 [Explore all 15 Interactive Case Studies on innunext.com](https://innunext.com/#projects)
+
+---
+
+## 💬 What Founders & Leads Say
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      ★★★★★<br><br>
+      <i>"Inayat went above and beyond when we needed to hit an important deadline. Very reliable, highly skilled technically, and quick to solve issues and implement features."</i>
+      <br><br>
+      <strong>Zanni Sabev</strong><br>
+      <sub>Business Owner, Bulgaria • <a href="https://www.upwork.com/freelancers/~01f9a28f1fe989e240">Verified on Upwork</a></sub>
+    </td>
+    <td width="33%" valign="top">
+      ★★★★★<br><br>
+      <i>"He handled complex challenges with ease, communicated clearly, and delivered a clean, high-quality product that exceeded expectations. A true professional."</i>
+      <br><br>
+      <strong>Akshaj Jois</strong><br>
+      <sub>Engineering Lead • <a href="https://www.linkedin.com/in/inayatalii/">Verified on LinkedIn</a></sub>
+    </td>
+    <td width="33%" valign="top">
+      ★★★★★<br><br>
+      <i>"His technical expertise, problem-solving mindset, and attention to detail are evident in every part of the final product. Highly recommended for any serious mobile build."</i>
+      <br><br>
+      <strong>Peter</strong><br>
+      <sub>Product Owner, United States • <a href="https://www.upwork.com/freelancers/~01f9a28f1fe989e240">Verified on Upwork</a></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📚 Production Engineering Playbooks
+
+Field-tested architecture guides authored from shipping and rescuing real-world mobile applications:
+
+* ⚡ [**How to Fix React Native Lag, Memory Leaks & Hit 60 FPS in Production**](https://innunext.com/guides/fix-react-native-memory-leaks-60fps/) — JSI, MMKV, FlashList vs FlatList, and Reanimated UI-thread worklets.
+* 🛡️ [**Apple App Store & Google Play Submission Checklist: Preventing Rejections**](https://innunext.com/guides/apple-app-store-google-play-rejection-checklist/) — Account deletion compliance, Privacy Manifests, and StoreKit paywalls.
+* 🚀 [**Founder's Blueprint: Building Scalable Apps with Expo & React Native New Architecture**](https://innunext.com/guides/react-native-expo-new-architecture-mvp-guide/) — Why startups ship 2x faster with TypeScript cross-platform foundations.
+* 📦 [**Architecting Offline-First Mobile Apps with SQLite, WatermelonDB & Supabase**](https://innunext.com/guides/offline-first-mobile-architecture-sqlite-supabase/) — Zero-data-loss field operations with idempotent mutation outboxes.
+
+---
+
+## 🧰 Tech Arsenal & Integrations
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,nextjs,nodejs,express,supabase,firebase,postgres,mongodb,tailwind,redux,figma,github,githubactions&perline=8" alt="Tech Stack Icons" />
+</p>
+
+<div align="center">
+
+| Category | Technologies & Native Integrations |
+| :--- | :--- |
+| **Mobile Core** | React Native, Expo SDK (EAS Build / Update), Fabric & TurboModules (JSI), TypeScript |
+| **State & Storage** | Redux Toolkit, Redux Persist, Zustand, MMKV (Synchronous JSI), SQLite, WatermelonDB |
+| **Real-Time & Hardware** | WebSockets (Socket.io), WebRTC VoIP Calling, Bluetooth Low Energy (BLE), Background Geolocation |
+| **Cloud & APIs** | Next.js 14, Supabase (PostgreSQL + RLS), Firebase, RESTful APIs, GraphQL, Node.js / Express |
+| **Monetization & Auth** | RevenueCat (StoreKit + Play Billing), Stripe, Apple Sign-In, Google OAuth, Phone OTP |
+| **Testing & Tooling** | Jest, React Native Testing Library, Flipper, Sentry, Bugsnag, GitHub Actions CI/CD |
+
 </div>
 
 ---
 
-## 🌟 Spotlight Projects
+## 📬 Start a Project or Codebase Audit
 
-While my crown-jewel production work stays under NDA wraps, here's a teaser of the impact I've engineered—each a testament to seamless tech and user love:
+Have a new product idea, a Figma prototype, or an existing React Native app that needs performance tuning or store publishing? Let's talk.
 
-<div align="center">
-
-| **Project** | **Description** | **Tech Stack** | **Impact Highlights** |
-|-------------|-----------------|---------------|-----------------------|
-| **🔒 Social Matching App** | Real-time haven for location-smart matches, lively chats, event vibes, and club connections. | React Native + Socket.IO + MongoDB | Boosted engagement for 10K+ users; frictionless social magic. |
-| **🔒 Hamdania – Islamic Lifestyle Companion** | Soulful app with Quran insights, prayer nudges, tasbeeh vibes, Qibla guide, and lunar calendar. | React Native + Firebase | Empowered daily rituals for a worldwide faithful community. |
-| **🔒 Business Web Portals** | Sleek dashboards and e-comm fronts with ironclad auth, analytics, and seamless integrations. | Next.js + Node.js/Express + Supabase | Turbocharged SMB ops—cut workflows by 40%. |
-| **🔧 Agency Internal Tools** | Bespoke admin realms, CMS dreams, and inventory wizards for team superpowers. | Full-Stack JS (React + Express) | Slashed manual drudgery; unlocked agile agency flow. |
-
-</div>
-
-> Craving deets on my problem-solving sorcery, code blueprints, or bespoke builds? Slide into my DMs—let's co-create something epic! 🚀
-
----
-
-## 📊 GitHub Galaxy
-
-<div align="center">
-
-*Public repos only—my private production stars shine brighter behind the scenes.*
-
-For a cosmic dive into commits, langs, and pinned gems:  
-👉 [Explore My OctoProfile](https://octoprofile.vercel.app/user?id=inayat567)
-
-
-  [![Inayat's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Inayat567&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=6EE7B7&icon_color=6EE7B7&text_color=FFFFFF)](https://github.com/anuraghazra/github-readme-stats)
-    [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Inayat567&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6EE7B7&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
-
-
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Inayat567&theme=radical&hide_border=true&background=0D1117&stroke=6EE7B7&ring=6EE7B7&fire=6EE7B7&currStreakNum=6EE7B7&currStreakLabel=6EE7B7&sideNums=6EE7B7&sideLabels=6EE7B7&dates=6EE7B7)](https://git.io/streak-stats)
-    [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/inayat567?cardType=level&theme=dark&hide_border=true&bg_color=0D1117&title_color=6EE7B7)](https://git.io/awesome-stats-card)
-
-</div>
-
----
-
-## 📬 Let's Ignite Collaboration
-
-Open to thrilling gigs, tech deep-dives, or fresh horizons—let's sync up and spark innovation!
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/inayat-ali-56420025a/">
-    <img src="https://img.shields.io/badge/💼%20LinkedIn-Connect%20Now-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
+<p align="center">
+  <a href="https://wa.me/923555369567?text=Hi%20Inayat%2C%20I%27d%20like%20to%20discuss%20a%20mobile%2Fweb%20project.">
+    <img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
+  <a href="mailto:inayatalibalti100@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://calendly.com/inayatalibalti100/30min">
+    <img src="https://img.shields.io/badge/Calendly-15--Min%20Intro-6366F1?style=for-the-badge&logo=calendly&logoColor=white" alt="Calendly" />
+  </a>
+  &nbsp;
   <a href="https://www.upwork.com/freelancers/~01f9a28f1fe989e240">
-    <img src="https://img.shields.io/badge/🎯%20Upwork-Hire%20Me%20Today-0EA5E9?style=for-the-badge&logo=upwork&logoColor=white&labelColor=0D1117" alt="Upwork" />
+    <img src="https://img.shields.io/badge/Upwork-Hire%20Top%20Rated-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
   </a>
-</div>
+</p>
 
-<!-- Pro Tip: Drop a note via GitHub Issues or profile for direct vibes! 📧 -->
+<p align="center">
+  <a href="https://innunext.com"><strong>Portfolio Website</strong></a> • 
+  <a href="https://www.linkedin.com/in/inayatalii/"><strong>LinkedIn</strong></a> • 
+  <a href="https://contra.com/inayat_ali"><strong>Contra</strong></a> • 
+  <a href="https://www.fiverr.com/inayatalidev"><strong>Fiverr</strong></a> • 
+  <a href="https://stackoverflow.com/users/12970547/inayat-ali"><strong>Stack Overflow</strong></a>
+</p>
 
 ---
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Inayat567&style=flat-square&color=brightgreen&label=Profile%20Views" alt="Profile Views" />
-  <br><br>
-  <em>⭐ Star this repo if it vibes—your support fuels the code fire!</em>
+<details>
+  <summary><b>📊 Public GitHub Activity &amp; Languages</b> <sub>(Click to expand • Client production repos remain private)</sub></summary>
   <br>
-  <img src="https://img.shields.io/badge/✨%20Made%20with-Markdown%20%26%20Love-ff69b4?style=for-the-badge&logo=heart&logoColor=white" alt="Made with Love" />
+  <div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Inayat567/Inayat567/output/github-snake-dark.svg" />
+      <img src="https://raw.githubusercontent.com/Inayat567/Inayat567/output/github-snake.svg" alt="Contribution Graph Snake Animation" width="100%" />
+    </picture>
+    <br><br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Inayat567&layout=compact&hide_border=true&theme=radical&title_color=38BDF8&text_color=94A3B8&bg_color=0B0F19&langs_count=6" alt="Top Languages" />
+  </div>
+</details>
+
+<div align="center">
+  <sub>© Inayat Ali • Founder &amp; Lead Architect @ <a href="https://innunext.com">InnuNext Technologies</a></sub>
 </div>
+
